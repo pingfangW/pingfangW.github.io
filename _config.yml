@@ -2,6 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 remote_theme: fongandrew/hydeout
+
 # Setup
 title:            欧克猫
 tagline:          '欧克猫的博客'
