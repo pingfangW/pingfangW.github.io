@@ -53,7 +53,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: 作者 <a href="https://github.com/pingfangW/pingfangW.github.io/">作者</a>简历 .
+  footer_content: 作者 <a href="https://github.com/pingfangW/pingfangW.github.io/">简历</a> .
 
 disqus:
   shortname: # e.g. yizeng
