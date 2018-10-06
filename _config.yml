@@ -1,10 +1,10 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-
+remote_theme: fongandrew/hydeout
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
+title:            欧克猫
+tagline:          '欧克猫的博客'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://fongandrew.github.io
 baseurl:          '/hydeout'
