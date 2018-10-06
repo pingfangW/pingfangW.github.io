@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
+url: https://okcat.org.cn # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: 欧克猫的博客
 description: "从零开始的好玩笔记"
