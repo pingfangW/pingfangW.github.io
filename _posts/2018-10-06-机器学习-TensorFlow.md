@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "机器学习系列课程-深度学习导论"
-description: "深度学习"
+title: "机器学习系列课程-TensorFlow"
+description: "TensorFlow"
 categories: [机器学习]
-tags: [机器学习, 深度学习]
+tags: [机器学习, TensorFlow]
 redirect_from:
   - /2018/10/23/
 ---
