@@ -67,7 +67,7 @@ TensorFlow遵循一个“懒惰”的方法。
 
 写一个小程序来添加两个数字
 
-~~~~ python 
+~~~ python 
 
 import tensorflow as tf
 
