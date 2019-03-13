@@ -101,6 +101,15 @@ sess.close()
 3.平台灵活性。你可以在任何地方运行模型，无论是在移动设备，服务器还是PC上。
 
 
+# tensorflow的缺点
+
+Even though TensorFlow is powerful, it’s still a low level library. For example, it can be considered as a machine level language. But for most of the purpose, you need modularity and high level interface such as keras
+It’s still in development, so much more awesomeness to come!
+It depends on your hardware specs, the more the merrier
+Still not an API for many languages.
+There are still many things yet to be included in TensorFlow, such as OpenCL support.
+Most of the above mentioned are in the sights of TensorFlow developers. They have made a roadmap for specifying how the library should be developed in the future.
+
 
 
 参考文献：
