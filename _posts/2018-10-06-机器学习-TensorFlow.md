@@ -123,7 +123,7 @@ https://mp.weixin.qq.com/s/SrGfpcgqxtPQUD-Y5rFhEw
 
 ![]({{ site.url }}/assets/images/machinelearning/tensor_02.jpg)
 
-~~~
+~~~ python
 import numpy as np
 import tensorflow as tf
 
@@ -161,7 +161,7 @@ TensorFlow实例：
 
 > python版
 
-~~~
+~~~ python
 import numpy as np
 
 def sum_square(N):
@@ -173,7 +173,7 @@ sum_square(10)
 
 > tensorflow版
 
-~~~
+~~~ python
 import tensorflow as tf
 
 tf.reset_default_graph()
@@ -189,7 +189,7 @@ writer = tf.summary.FileWriter("/tmp/tboard", graph=s.graph)
 
 > 详细了解一下placeholder的用法
 
-~~
+~~~ python
 with tf.name_scope("Placeholder_examples"):
 	arbitrary_input = tf.placeholder('float32')
 	input_vector = tf.placeholder('float32', shape=(None,))
@@ -202,11 +202,11 @@ with tf.name_scope("Placeholder_examples"):
 	double_the_vector = input_vector*2
 	elementwise_cosine = tf.cos(input_vector)
 	vector_squares = input_vector**2 - input_vector + 1
-~~
+~~~
 
 > 再看一例，mean square error
 
-~~
+~~~ python
 with tf.name_scope("MSE"):
 	y_true = tf.placeholder("float32", shape=(None,), name="y_true")
 	y__predicted = tf.placeholder("float32",shape=(None,), name="y_predicted")
@@ -214,11 +214,11 @@ with tf.name_scope("MSE"):
 
 def compute_mse(vector1, vector2):
 	return mse.eval({y_true: vector1, y_predicted: vector2})
-~~
+~~~
 
 > variable和placeholder不同的是，s.run()时，variable不需要传入数字。
 
-~~
+~~~ python
 shared_vector_1 = tf.Variable(initial_value=np.ones(5), name="example_variable")   # 先创建一个变量
 
 s.run(tf.global_variables_initializer())   # 初始化初始变量
@@ -226,7 +226,7 @@ print("initial value", s.run(shared_vector_1))
 
 s.run(shared_vector_1.assign(np.arange(5)))
 print("new value", s.run(shared_vector_1))
-~~
+~~~
 
 
 
